@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T04:28:34.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="7k5BgC3xPmP9ty0Cx7F6" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-01T04:49:25.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="Te4H4ALC-gnW4OE2rmze" version="17.4.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="907" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1803" dy="379" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,6 +166,139 @@
         </mxCell>
         <mxCell id="rPL2mml6vw-2UIT-65mu-32" value="insertIntoWebRegistration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="660" y="340" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-69" value=":ProfileResource" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="510" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-70" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="rPL2mml6vw-2UIT-65mu-69">
+          <mxGeometry x="45" y="70" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-72" value=":ProfileService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="510" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-73" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="rPL2mml6vw-2UIT-65mu-72">
+          <mxGeometry x="45" y="80" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-74" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1" source="rPL2mml6vw-2UIT-65mu-73" target="rPL2mml6vw-2UIT-65mu-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-75" value=":ProfileValidator" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="510" width="110" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-76" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="rPL2mml6vw-2UIT-65mu-75">
+          <mxGeometry x="50" y="80" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-77" value=":CustomerService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="510" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-78" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="rPL2mml6vw-2UIT-65mu-77">
+          <mxGeometry x="45" y="130" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-80" value=":ShakleeIntegrationService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="510" width="145" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-81" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="rPL2mml6vw-2UIT-65mu-80">
+          <mxGeometry x="67.5" y="180" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-82" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="rPL2mml6vw-2UIT-65mu-80">
+          <mxGeometry x="67.5" y="270" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-83" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="rPL2mml6vw-2UIT-65mu-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="77.5" y="310" as="sourcePoint" />
+            <mxPoint x="247.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-84" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.95;exitY=0.156;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.95;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rPL2mml6vw-2UIT-65mu-80" source="rPL2mml6vw-2UIT-65mu-82" target="rPL2mml6vw-2UIT-65mu-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-175" y="230" as="sourcePoint" />
+            <mxPoint x="155" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="155" y="279" />
+              <mxPoint x="155" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-85" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.2;entryY=0.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rPL2mml6vw-2UIT-65mu-75" target="rPL2mml6vw-2UIT-65mu-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="680" as="sourcePoint" />
+            <mxPoint x="295" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-86" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="610" as="sourcePoint" />
+            <mxPoint x="395" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-87" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.269;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2;entryY=0.578;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rPL2mml6vw-2UIT-65mu-73" target="rPL2mml6vw-2UIT-65mu-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="650" as="sourcePoint" />
+            <mxPoint x="515" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-88" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.067;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rPL2mml6vw-2UIT-65mu-78" target="rPL2mml6vw-2UIT-65mu-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="335" y="700" as="sourcePoint" />
+            <mxPoint x="385" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-91" value=":Upgrade_Customer_Profile" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="510" width="160" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-92" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="rPL2mml6vw-2UIT-65mu-91">
+          <mxGeometry x="75" y="290" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-93" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.017;entryY=0.227;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.267;exitY=0.772;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rPL2mml6vw-2UIT-65mu-73" target="rPL2mml6vw-2UIT-65mu-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="770" as="sourcePoint" />
+            <mxPoint x="655" y="770" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-94" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="663" y="830" as="sourcePoint" />
+            <mxPoint x="280" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-95" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="639.9999999999998" as="targetPoint" />
+            <mxPoint x="275" y="639.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-96" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.064;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rPL2mml6vw-2UIT-65mu-70" target="rPL2mml6vw-2UIT-65mu-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155" y="600" as="sourcePoint" />
+            <mxPoint x="465" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-97" value="upgradeProfile" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-98" value="validateParameters" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="590" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-99" value="findCustomerByCode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="640" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-103" value="upgradeCustomerProfile" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="770" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-104" value="updateWebRegistration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="770" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-105" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.167;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rPL2mml6vw-2UIT-65mu-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="586" as="sourcePoint" />
+            <mxPoint x="460" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPL2mml6vw-2UIT-65mu-106" value="upgradeProfile" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="560" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
